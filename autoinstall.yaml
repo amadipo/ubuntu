@@ -13,7 +13,7 @@ autoinstall:
       name: lvm
       sizing-policy: all   # Subiquity's default ('scaled') leaves a large
                            # portion of the disk unallocated - 'all' uses 100%
-      password: ubuntu   # Must match the LUKS root script below - change before deployment
+      password: Ubuntu   # Must match the LUKS root script below - change before deployment
 
   # keyboard:
   #   layout: de
